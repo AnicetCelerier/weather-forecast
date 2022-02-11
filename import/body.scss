@@ -1,0 +1,14 @@
+//body
+#input-bloc{
+    @include center-flex;
+    margin: 30px;
+}
+
+.meteo-block{
+    background-color: rgb(164, 255, 137);
+    @include border-radius(20px);
+    @include center-flex;
+    padding: 10px;
+    margin: 10px;
+}
+

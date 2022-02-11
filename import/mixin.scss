@@ -1,0 +1,20 @@
+//mixin
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin center-flex(){
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@mixin media-min($key) {
+    @media screen and (min-width: map-get($breakpoints, $key)) {
+        &{ @content; }
+    }
+}

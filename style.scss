@@ -1,0 +1,46 @@
+@import 'import/mixin.scss';
+@import 'import/variable.scss';
+@import 'import/header.scss';
+@import 'import/body.scss';
+
+
+#big-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+
+#parent-container{
+    @include center-flex;
+    div{
+        height: $height;
+        width: $width;
+        color: $color;
+    }
+    background-color:blue;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+    
+/* 
+.message {
+    height: $height;
+    width: $width;
+}
+.success {
+    @extend .message;
+    background-color: green;
+}
+
+.error{
+    @extend .message;
+    background-color: red;
+}
+ */

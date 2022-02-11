@@ -1,0 +1,62 @@
+@media screen and (max-width: 750px) {
+  #meteo-block {
+    background-color: #ff89e5; } }
+header {
+  display: flex;
+  justify-content: center; }
+
+#input-bloc {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+
+.meteo-block {
+  background-color: #a4ff89;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px; }
+
+#big-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red; }
+
+#parent-container {
+  display: flex;
+  justify-content: center;
+  background-color: blue; }
+  #parent-container div {
+    height: 150px;
+    width: 150px;
+    color: skyblue; }
+
+html {
+  font-family: 'Roboto', sans-serif; }
+
+/* 
+.message {
+    height: $height;
+    width: $width;
+}
+.success {
+    @extend .message;
+    background-color: green;
+}
+
+.error{
+    @extend .message;
+    background-color: red;
+}
+ */
+@media screen and (max-width: 750px) {
+  #meteo-block {
+    background-color: #ff89e5; } }
+
+/*# sourceMappingURL=style.css.map */
